@@ -1,0 +1,9 @@
+The logarithm of a number roughly measures the number of times you have to halve it to get down to 1.
+
+logarithmic time complexity - O(log n)
+logarithmic time complexity is great because it scales well with large inputs.
+
+Certain searching algorithms have logarithmic time complexity.
+Efficient sorting algorithms involve logarithmic time complexity.
+
+Recursive algorithms sometimes have logarithmic space complexity.

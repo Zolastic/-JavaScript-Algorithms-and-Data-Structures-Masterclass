@@ -1,0 +1,22 @@
+Big O Notation
+
+Constants don't matter
+e.g., 
+-O(2n) = O(n), 
+O(500) = O(1), 
+O(13n^2) = O(n^2)
+
+Smaller terms don't matter (Always look at the worst case scenario or big picture. Imagine this on a super big graph.)
+e.g., 
+O(n + 10) = O(n), 
+O(1000n + 50) = O(n), 
+O(n^2 + 5n + 8) = O(n^2) # Quadratic time complexity is more significant than linear time complexity (Imagine this on a super big graph. n^2 will look much more significant than 5n + 8). Hence the smaller terms like 5n + 8 don't matter.
+
+Big O Shorthands
+1. Arithmetic operations are constant (e.g., +, -, *, /, %, ^)
+2. Variable assignment is constant (e.g., x = 1)
+3. Accessing elements in an array (by index) or object (by key) is constant (e.g., arr[5], obj['a'])
+4. In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop (e.g., for (let i = 0; i < n; i++) { ... } is O(n) complexity)
+
+
+
