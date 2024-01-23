@@ -1,0 +1,11 @@
+SOLVE OR SIMPLIFY
+
+Solve the problem
+If you can't solve it...
+Solve a simpler problem
+
+Simplify steps:
+- Find the core difficulty in what you're trying to do
+- Temporarily ignore that difficulty
+- Write a simplified solution
+- Incorporate that difficulty back in
