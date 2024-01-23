@@ -1,0 +1,25 @@
+Arrays are ordered lists.
+Use it when you need order.
+
+
+Big O of Arrays
+- Insertion - It depends...
+- Removal - It depends...
+- Searching - O(N)
+- Access - O(1)
+
+
+Big O of Array Operations (don't need to know all this...)
+push - O(1)
+pop - O(1)
+shift - O(N)
+unshift - O(N)
+concat - O(N) - because you have to copy the values from one array to another
+slice - O(N) - because you have to copy the values from one array to another
+splice - O(N) - because you have to copy the values from one array to another
+sort - O(N * log N) - because you have to compare each value to each other value
+forEach/map/filter/reduce/etc. - O(N) - because you have to loop through each value in the array
+
+main takeaway between arrays and objects:
+- objects are fast at insertion, removal, and accessing, but slow at searching. There is no order to objects.
+- arrays are fast at access, but slow at insertion and removal (except at the end of the array). There is order to arrays.

@@ -1,0 +1,13 @@
+When to use objects
+- When you don't need order
+- When you need fast access/insertion and removal
+
+Big O of Objects
+- Insertion - O(1)
+- Removal - O(1)
+- Searching - O(N) - searching for a value in an object is O(N) because you have to search through all the values to find it. Note this searching for a value.
+- Access - O(1)
+
+main takeaway between arrays and objects:
+- objects are fast at insertion, removal, and accessing, but slow at searching. There is no order to objects.
+- arrays are fast at access, but slow at insertion and removal (except at the end of the array). There is order to arrays.
