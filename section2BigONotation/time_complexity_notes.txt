@@ -2,7 +2,7 @@ Big O Notation
 
 Constants don't matter
 e.g., 
--O(2n) = O(n), 
+O(2n) = O(n), 
 O(500) = O(1), 
 O(13n^2) = O(n^2)
 

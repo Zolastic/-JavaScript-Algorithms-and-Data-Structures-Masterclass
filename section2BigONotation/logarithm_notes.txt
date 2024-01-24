@@ -7,3 +7,22 @@ Certain searching algorithms have logarithmic time complexity.
 Efficient sorting algorithms involve logarithmic time complexity.
 
 Recursive algorithms sometimes have logarithmic space complexity.
+
+
+The difference between O(log N) and O(N) lies in how the time complexity grows as the size of the input (N) increases.
+
+1. **O(log N):** Logarithmic time complexity means that as the size of the input increases, 
+the time taken to perform an operation grows logarithmically. 
+In other words, the algorithm's performance improves as the input size increases. 
+Common algorithms with logarithmic time complexity include binary search and certain efficient tree-based operations.
+   Example: Binary search in a sorted list. In each step, the search space is halved, leading to a more efficient search.
+
+2. **O(N):** Linear time complexity means that the time taken to perform an operation grows linearly with the size of the input. 
+As the input size increases, the time taken also increases at a proportional rate. 
+   Example: A simple linear search through an unsorted list. For each element in the list, you may need to check if it's the one you're looking for.
+
+To illustrate the difference, let's consider an example. Suppose you have a list of 1,000 elements, and you want to find a specific element in the list.
+- If you use an algorithm with O(log N) complexity, like binary search, it may take around 10 steps to find the element, because each step halves the search space.
+- If you use an algorithm with O(N) complexity, like linear search, it may take up to 1,000 steps, as you might need to check each element individually.
+
+In summary, O(log N) implies a more efficient algorithm with a faster growth rate compared to O(N) as the input size increases. Logarithmic time complexity is generally more desirable for large datasets when compared to linear time complexity.

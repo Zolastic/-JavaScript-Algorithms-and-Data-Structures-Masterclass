@@ -1,0 +1,11 @@
+Problem Solving Patterns (Master common problem solving patterns)
+
+Some Patterns (Some of these are official terminology)
+- Frequency Counter
+- Multiple Pointers
+- Sliding Window
+- Divide and Conquer
+- Dynamic Programming
+- Greedy Algorithms
+- Backtracking
+- Many more!
