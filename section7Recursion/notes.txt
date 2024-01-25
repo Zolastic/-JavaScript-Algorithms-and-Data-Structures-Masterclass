@@ -1,0 +1,54 @@
+RECURSION
+
+Objectives:
+- Define wat recursion is and how it can be used
+- Understand the two essential components of a recursive function
+- Visualize the call stack to better debug and understand recursive functions
+- Use helper method recursion and pure recursion to solve more difficult problems
+
+What is recursion?
+- A process (a function in our case) that calls itself
+
+Why use recursion?
+- It's everywhere!
+- JSON.parse / JSON.stringify
+- document.getElementById and DOM traversal algorithms
+- Object traversal
+- Very common with more complex algorithms
+- It's sometimes a cleaner alternative to iteration
+
+The Call Stack
+- It's a stack data structure
+- Any time a function is invoked it is placed (pushed) on the top of the call stack
+- When JavaScript sees the return keyword or when the function ends, the compiler will remove (pop)
+
+Why do I care?
+- You're used to functions being pushed on the call stack and popped off when they are done
+- When we write recursive functions, we keep pushing new functions onto the call stack!
+
+How recursive functions work
+- Invoke the same function with a different input until you reach your base case!
+- Two essential parts of a recursive function!
+    - Base Case
+        - The condition when the recursion ends. This is the most important concept to understand
+    - Different Input
+        - The input that changes every time the function is called recursively
+
+Where things go wrong
+- No base case
+- Forgetting to return or returning the wrong thing!
+- Call Stack overflow!
+
+Helper Method Recursion
+- Outer function is not recursive but calls an inner function which is recursive
+- Helper method recursion is a pattern
+- Useful when we need to collect data or when we need to do something in between recursive calls
+
+Pure Recursion Tips
+- For arrays, use methods like slice, the spread operator, and concat that make copies of arrays so you do not mutate them
+- Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings
+- To make copies of objects use Object.assign, or the spread operator
+
+Helper Method Recursion vs Pure Recursion
+- Pure recursion is cleaner but can be more difficult to understand
+- Helper method recursion is easier to understand but we have the overhead of that extra function call

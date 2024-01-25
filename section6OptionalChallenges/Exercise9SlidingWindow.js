@@ -70,6 +70,7 @@ const findLongestSubstringGPT = (str) => {
 
   return longestLength;
 };
+// console.log(findLongestSubstringGPT("thisisawesome")); // Expected output: 0
 
 // Colt's Solution
 function findLongestSubstringColt(str) {

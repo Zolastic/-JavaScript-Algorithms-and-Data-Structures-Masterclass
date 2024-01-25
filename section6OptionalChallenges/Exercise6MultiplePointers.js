@@ -23,15 +23,15 @@ const isSubsequence = (str1, str2) => {
   // two variables in loop, i and j. if i and j don't match, j will move on to the next character.
 
   for (let i = 0, j = 0; i < str1.length; ) {
+    if (j === str2.length) {
+      return false;
+    }
+
     if (str1[i] === str2[j]) {
       i++;
     }
 
     j++;
-
-    if (j === str2.length && str1[i] !== str2[j]) {
-      return false;
-    }
   }
 
   return true;
