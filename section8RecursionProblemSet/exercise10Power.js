@@ -17,5 +17,5 @@ console.log(power(2, 4)); // 16
 // Colt's Solution
 function powerColt(base, exponent) {
   if (exponent === 0) return 1;
-  return base * power(base, exponent - 1);
+  return base * powerColt(base, exponent - 1);
 }

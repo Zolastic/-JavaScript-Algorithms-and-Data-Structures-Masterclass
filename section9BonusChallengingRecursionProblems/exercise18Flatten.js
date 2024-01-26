@@ -25,11 +25,11 @@ console.log(flatten([[1], [2], [3]])); // [1, 2, 3]
 console.log(flatten([[[[1], [[[2]]], [[[[[[[3]]]]]]]]]])); // [1, 2, 3]
 
 // Colt Steele's Solution
-function flatten(oldArr) {
+function flattenColt(oldArr) {
   var newArr = [];
   for (var i = 0; i < oldArr.length; i++) {
     if (Array.isArray(oldArr[i])) {
-      newArr = newArr.concat(flatten(oldArr[i]));
+      newArr = newArr.concat(flattenColt(oldArr[i]));
     } else {
       newArr.push(oldArr[i]);
     }

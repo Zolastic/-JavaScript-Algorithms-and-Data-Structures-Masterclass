@@ -48,5 +48,5 @@ console.log(fib(35)); // 9227465
 // Colt's Solution
 function fibColt(n) {
   if (n <= 2) return 1;
-  return fib(n - 1) + fib(n - 2);
+  return fibColt(n - 1) + fibColt(n - 2);
 }

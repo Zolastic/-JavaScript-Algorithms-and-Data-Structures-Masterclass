@@ -14,5 +14,5 @@ console.log(recursiveRange(10)); // 55s
 // Colt's Solution
 function recursiveRangeColt(x) {
   if (x === 0) return 0;
-  return x + recursiveRange(x - 1);
+  return x + recursiveRangeColt(x - 1);
 }
