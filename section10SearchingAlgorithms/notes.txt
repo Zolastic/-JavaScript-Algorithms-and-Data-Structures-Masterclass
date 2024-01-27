@@ -1,0 +1,35 @@
+SEARCHING ALGORITHMS
+
+Objectives
+- Describe what a searching algorithm is
+- Implement linear search on arrays
+- Implement binary search on sorted arrays
+- Implement a naive string searching algorithm
+- Implement the KMP string searching algorithm
+
+How do we search?
+- Given an array, the simplest way to search for a value is to look at every element in the array and check if it's the value we want
+
+JavaScript has search built in
+- indexOf
+- includes
+- find
+- findIndex
+How do these functions work? Answer is Linear Search
+
+Binary Search - O(log n)
+- Binary search is a much faster form of search
+- Rather than eliminating one element at a time, you can eliminate half of the remaining elements at a time
+- Binary search only works on SORTED arrays!
+
+Divide and Conquer
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data
+- This pattern can tremendously decrease time complexity
+
+Binary Search Big O
+- Worst and Average Case: O(log n)
+- Best Case: O(1)
+
+Naive String Search
+- Suppose you want to count the number of times a smaller string appears in a longer string
+- A straightforward approach involves checking pairs of characters individually

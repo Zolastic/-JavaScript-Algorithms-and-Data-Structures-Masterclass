@@ -18,7 +18,7 @@ const capitalizeWords = (arr) => {
 };
 
 let words = ["i", "am", "learning", "recursion"];
-// console.log(capitalizeWords(words)); // ['I', 'AM', 'LEARNING', 'RECURSION']
+console.log(capitalizeWords(words)); // ['I', 'AM', 'LEARNING', 'RECURSION']
 
 // Colt's Solution
 function capitalizeWordsColt(array) {

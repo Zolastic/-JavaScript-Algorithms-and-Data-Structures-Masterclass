@@ -6,8 +6,8 @@ e.g., factorial four ( 4! ) is equal to 24, because 4 * 3 * 2 * 1 equals 24.  fa
 
 // My Solution
 const factorial = (num) => {
-  if (num <= 0) return 1; // factorial zero (0!) is always 1. There is no factorial of a negative number.
-  if (num == 1) return 1;
+  if (num < 0) return 0; // factorial zero (0!) is always 1. There is no factorial of a negative number.
+  if (num <= 1) return 1;
   return num * factorial(num - 1);
 };
 
