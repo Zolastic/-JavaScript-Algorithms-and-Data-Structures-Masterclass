@@ -1,7 +1,7 @@
 RECURSION
 
 Objectives:
-- Define wat recursion is and how it can be used
+- Define what recursion is and how it can be used
 - Understand the two essential components of a recursive function
 - Visualize the call stack to better debug and understand recursive functions
 - Use helper method recursion and pure recursion to solve more difficult problems
@@ -35,9 +35,11 @@ How recursive functions work
         - The input that changes every time the function is called recursively
 
 Where things go wrong
-- No base case
+- No base case 
+    - or base case is wrong
+    - Results in infinite loop!/ Call Stack overflow! (Maximum call stack size exceeded)
 - Forgetting to return or returning the wrong thing!
-- Call Stack overflow!
+    - Results in Call Stack overflow!
 
 Helper Method Recursion
 - Outer function is not recursive but calls an inner function which is recursive

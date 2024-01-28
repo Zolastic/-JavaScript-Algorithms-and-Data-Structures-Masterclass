@@ -5,7 +5,7 @@ When to use objects
 Big O of Objects
 - Insertion - O(1)
 - Removal - O(1)
-- Searching - O(N) - searching for a value in an object is O(N) because you have to search through all the values to find it. Note this searching for a value.
+- Searching - O(N) - searching for a value in an object is O(N) because you have to search through all the values to find it. Note this searching for a value not a key.
 - Access - O(1)
 
 main takeaway between arrays and objects:
