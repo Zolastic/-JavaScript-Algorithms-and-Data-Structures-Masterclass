@@ -1,0 +1,6 @@
+Selection Sort
+- similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position
+- time complexity: O(n^2)
+
+When is it good to use selection sort?
+- when you want to minimize the number of swaps you make

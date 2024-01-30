@@ -35,3 +35,7 @@ Bubble Sort (https://visualgo.net/en/sorting?slide=1)
 - A sorting algorithm where the largest values bubble up to the top!
 - As you loop through each item it compares it to the next item in the array and swaps them if the next item is larger
 - Time complexity: O(n^2)
+
+When to use bubble sort?
+- Almost never! There are almost no use cases where bubble sort is the best choice
+- It's really only useful if you know your data is almost sorted already
