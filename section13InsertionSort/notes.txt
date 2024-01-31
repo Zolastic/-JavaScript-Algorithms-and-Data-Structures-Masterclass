@@ -1,2 +1,6 @@
 Insertion Sort
-- Builds up the sort by gradually creating a larger left half which is always sorted
+- Builds up the sort by gradually creating a larger left portion which is always sorted
+- O(n^2) time complexity
+- However, if our data is nearly sorted, insertion sort is a good choice
+    - if we have a list of 1000 numbers, and only 5 of them are out of order, insertion sort will only take 5,000 steps to sort the list
+    - e.g.,  [1, 2, 3, 4, -1] (only -1 is out of order)
