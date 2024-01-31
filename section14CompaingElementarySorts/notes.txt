@@ -1,0 +1,23 @@
+ELEMENTARY SORTING ALGORITHMS
+
+Elementary Sorting Algorithms are also known as Quadratic Sorting Algorithms. 
+The reason for this is that the time complexity of these algorithms is O(n^2).
+This means that the time taken by these algorithms to sort an array of n elements is proportional to n^2.
+Their space complexity is O(1) because they do not use any extra space.
+
+The following are the elementary sorting algorithms:
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+
+These algorithms are not used in practice because of their poor performance.
+Both Bubble Sort and Insertion Sort is good if the array is almost sorted.
+
+Insertion Sort works very well if you need your data to be continuously sorted. 
+So, if you have a stream of data coming in and you want to sort it, then you can use Insertion Sort.
+
+Recap:
+- Sorting is fundamental!
+- Bubble sort, selection sort, and insertion sort are all roughly equivalent
+- All have average time complexity of O(n^2)
+- We can do better... but we need more complex algorithms!
