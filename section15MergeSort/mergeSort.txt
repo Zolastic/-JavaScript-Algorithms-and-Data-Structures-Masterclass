@@ -7,3 +7,24 @@ Merge Sorting
 
 How does it work?
 - In order to implement merge sort, it's useful to first implement a function responsible for merging two sorted arrays
+
+Big O of Merge Sort
+- Time Complexity (Best): O(n log n)
+- Time Complexity (Average): O(n log n)
+- Time Complexity (Worst): O(n log n)
+- Space Complexity: O(n)
+
+why O(n log n)?
+- The algorithm divides the input into two halves, sorts each half, and then merges the sorted halves. 
+- The two main phases are the division phase and the merging phase. 
+- The division phase keeps dividing the input in half until the base case is reached. 
+- The merging phase then reassembles the sorted halves into a single sorted unit. 
+- The division phase is O(log n) because it divides the input in half each time. 
+- The merging phase is O(n) because it must look at every item. So the time complexity is O(n log n).
+
+O(n log n) is not as good as O(n), O(log n) or O(1), but it's the best time complexity for a comparison-based sorting algorithm.
+
+why O(n) for space complexity?
+- Merge sort creates a new array every time it merges two arrays.
+- The new array is the same size as the two arrays being merged.
+- So the space complexity is O(n) because the algorithm creates a new array of the same size as the input array every time it merges two arrays.
