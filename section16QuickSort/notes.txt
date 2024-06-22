@@ -1,0 +1,8 @@
+QUICK SORT 
+
+Big O of Quick Sort
+
+- Time Complexity (Best Case): O(n log n) // as it continuously divides the array into two halves
+- Time Complexity (Average Case): O(n log n)
+- Time Complexity (Worst Case): O(n^2) // if the array is already sorted. This means Quick Sort would have to divide the array n times, meaning O(n) decompositions, and O(n) comparisons for each decomposition. Hence O(n^2)
+- Space Complexity: O(log n)
